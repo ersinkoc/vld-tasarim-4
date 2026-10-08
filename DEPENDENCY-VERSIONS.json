@@ -1,0 +1,78 @@
+{
+  "checkedAt": "2026-10-08T15:50:18.071Z",
+  "policy": "npm latest stable dist-tag; direct dependencies pinned exactly; transitive dependencies locked in package-lock.json",
+  "dependencies": [
+    {
+      "package": "@fontsource-variable/manrope",
+      "installed": "5.3.0",
+      "latest": "5.3.0",
+      "current": true
+    },
+    {
+      "package": "@fontsource/ibm-plex-mono",
+      "installed": "5.3.0",
+      "latest": "5.3.0",
+      "current": true
+    },
+    {
+      "package": "@oxog/vld",
+      "installed": "3.0.11",
+      "latest": "3.0.11",
+      "current": true
+    },
+    {
+      "package": "lucide-react",
+      "installed": "1.53.0",
+      "latest": "1.53.0",
+      "current": true
+    },
+    {
+      "package": "next",
+      "installed": "16.4.0",
+      "latest": "16.4.0",
+      "current": true
+    },
+    {
+      "package": "react",
+      "installed": "19.3.0",
+      "latest": "19.3.0",
+      "current": true
+    },
+    {
+      "package": "react-dom",
+      "installed": "19.3.0",
+      "latest": "19.3.0",
+      "current": true
+    },
+    {
+      "package": "@types/node",
+      "installed": "26.6.4",
+      "latest": "26.6.4",
+      "current": true
+    },
+    {
+      "package": "@types/react",
+      "installed": "19.3.0",
+      "latest": "19.3.0",
+      "current": true
+    },
+    {
+      "package": "@types/react-dom",
+      "installed": "19.3.0",
+      "latest": "19.3.0",
+      "current": true
+    },
+    {
+      "package": "prettier",
+      "installed": "3.9.9",
+      "latest": "3.9.9",
+      "current": true
+    },
+    {
+      "package": "typescript",
+      "installed": "7.0.2",
+      "latest": "7.0.2",
+      "current": true
+    }
+  ]
+}
