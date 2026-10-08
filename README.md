@@ -4,6 +4,8 @@ A Next.js App Router website for [VLD](https://github.com/ersinkoc/vld). Designe
 
 ## Run locally
 
+Use Node.js 24.x (also declared in `package.json` and `.nvmrc`).
+
 ```sh
 npm ci
 npm run dev
@@ -17,6 +19,12 @@ npm run build
 npm start
 npm run versions:check
 ```
+
+## Deployment
+
+Nixpacks 1.41.0 reads `engines.node` and selects its supported Node.js 24 runtime instead of its Node.js 18 default. Keep the install/build/start commands as `npm ci`, `npm run build`, and `npm start`.
+
+The production server binds to `0.0.0.0` so the container proxy can reach it. Next.js reads the port from the deployment's `PORT` environment variable, defaulting to 3000. Development remains bound to `127.0.0.1`.
 
 ## Pages and interactions
 

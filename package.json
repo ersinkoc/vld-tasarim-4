@@ -2,10 +2,13 @@
   "name": "vld-website",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "next dev --hostname 127.0.0.1",
     "build": "next build",
-    "start": "next start --hostname 127.0.0.1",
+    "start": "next start --hostname 0.0.0.0",
     "typecheck": "tsc --noEmit",
     "versions:check": "node scripts/check-versions.mjs",
     "format": "prettier --write src scripts next.config.ts tsconfig.json package.json README.md"
